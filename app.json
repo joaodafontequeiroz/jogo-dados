@@ -1,8 +1,16 @@
 {
   "expo": {
     "name": "jogo-dados",
-    "slug": "jogo-dados",
+    "slug": "atividadedado",
     "version": "1.0.0",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/e3daf39c-0aad-4522-9f48-4c9740acbec4"
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -19,6 +27,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e3daf39c-0aad-4522-9f48-4c9740acbec4"
+      }
+    },
+    "owner": "joaodafontequeirozs-team"
   }
 }
